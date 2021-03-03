@@ -1,0 +1,82 @@
+*
+{
+padding:0px;
+margin:0px;
+}
+.bi
+{
+    background-image:url("../img/laptop.jpg");
+       background-size: cover;
+}
+.bi1
+{
+    background-image:url("../img/admin.jpg");
+    background-size: cover;
+}
+.bi2
+{
+    background-image:url("../img/user.jpg");
+    background-size: cover;
+}
+
+
+.menubar
+{
+background-color:black;
+text-align:center;
+
+}
+.menubar ul
+{
+list-style:none;
+display:inline-flex;
+padding:15px;
+
+}
+.menubar ul li a
+{
+text-decoration:none;
+color:white;
+padding:15px;
+}
+.menubar ul li
+{
+padding:10px;
+
+}
+.menubar ul li a:hover
+{
+background-color:green;
+border-radius:10px;
+
+}
+.submenu
+{
+display:none;
+}
+.menubar ul li:hover .submenu
+{
+display:block;
+position:absolute;
+background-color:black;
+border-radius:10px;
+
+}
+.menubar ul li:hover .submenu ul
+{
+display:block;
+}
+.submenu ul li
+{
+border-bottom:2px solid green;
+}
+.row
+{
+
+display:flex;
+}
+.col h2
+{
+text-align:center;
+text-decoration:underline;
+}
